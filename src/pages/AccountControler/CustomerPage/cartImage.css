@@ -1,0 +1,206 @@
+
+.public-btn{
+  background: #FFFDFA;
+  color: #4B4A80;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4),
+  0px 7px 13px -3px rgba(0,0,0,0.29),
+  0px -3px 0px 0px rgba(0,0,0,0.22) inset;
+  border:	1px solid rgba(0,0,0,0.01);
+  border-radius:	6px;
+}
+
+.public-btn:hover{
+  background: #FFFDFA;
+  color: #4B4A80;
+}
+
+.img-item{
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cart_item{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.address{
+  width: 350px;
+  padding: 5px 0;
+}
+
+.delivery-address{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.cart{
+width: 600px;
+margin: auto;
+border: #FFFDFA;
+}
+
+.cart_tr{
+width: 600px;
+margin: auto;
+}
+.td_check{
+width: 30px;
+}
+.td_check_value{
+width: 200px;
+}
+
+.cart_td_check{
+width: 270px;
+}
+
+.cart_td{
+width: 250px;
+}
+
+.cart_td_img{
+width: 200px;
+margin: auto;
+}
+
+.cart_tr_check_out{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.cart_td_total{
+width: 250px;
+}
+.cart_td_paypal{
+width: 250px;
+}
+
+.ship,
+.total{
+font-size: 12px;
+}
+
+.check_out_total{
+font-size: 13px;
+line-height: 35px;
+}
+
+.totamount{
+font-size: 12px;
+line-height: 35px;
+}
+
+.name{
+font-size: 12px;
+}
+
+.fee,
+.qty,
+.color,
+.size,
+.price{
+font-size: 11px;
+}
+@media only screen and (min-width: 280px) and (max-width: 568px){
+.check_out_total{
+  font-size: 10px;
+  line-height: 35px;
+}
+
+.name{
+  font-size: 11px;
+}
+
+.fee,
+.qty,
+.color,
+.size,
+.price{
+  font-size: 10px;
+}
+
+.del{
+  display: none;
+}
+.cart{
+  margin: auto;
+  width: 340px;
+}
+
+.cart_tr{
+  width: 340px;
+  margin: auto;
+}
+
+.ship,
+.total{
+  font-size: 9px;
+}
+
+.totamount{
+  font-size: 10px;
+}
+
+.cart_td_img{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.cart_td{
+  width: 250px;
+  margin-right: 5px;
+}
+
+
+
+
+.cart_tr_check_out{
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.cart_td_checkout{
+  width: 170px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.cart_td_checkout_total{
+  width: 170px;
+}
+
+.cart_td_total{
+  width: 160px;
+}
+.cart_td_paypal{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 170px;
+}
+
+
+
+.td_check{
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.td_check_value{
+  width: 80px;
+}
+
+.cart_td_check{
+  width: 220px;
+}
+
+}
+
+

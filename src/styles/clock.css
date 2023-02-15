@@ -1,0 +1,7 @@
+
+
+@media only screen and (max-width:992px) {
+    .clock_wrapper, .btn {
+        justify-content: center;
+    }   
+}

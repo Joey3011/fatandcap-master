@@ -1,0 +1,22 @@
+.search {
+  position: fixed;
+  top: 20px;
+  width: 50%;
+  margin-left: 15%;
+  z-index: 12;
+}
+/* .search-box .search-input {
+  font-size: 13px;
+}
+.search-box .search-input::placeholder {
+  font-size: 12px;
+} */
+
+@media only screen and (max-width:768px) {
+  .search {
+    top: 25px;
+    width: 60%;
+    margin-left: 15%;
+    z-index: 12;
+  }
+}

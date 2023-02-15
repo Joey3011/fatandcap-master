@@ -1,0 +1,146 @@
+
+  .public{
+    min-height: 100vh;
+    background-color: #FFFDFA;
+    color: #4B4A80;
+  }
+
+  .public-title{ 
+    font-weight: bold;
+  }
+
+
+  .public-btn{
+    box-shadow: 	0px 2px 4px 0px rgba(0,0,0,0.4),
+		0px 7px 13px -3px rgba(0,0,0,0.29),
+		0px -3px 0px 0px rgba(0,0,0,0.22) inset;
+    border:	1px solid rgba(0,0,0,0.01);
+    border-radius:	6px;
+  }
+
+  /* .public-btn:hover{
+    background-color: #E78400;
+    cursor: pointer;
+  } */
+
+  .fontColor{
+    color: #FFFDFA;
+  }
+
+
+  .formRequestPassword,
+  .formSubmitCode{
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFDFA;
+    width: 400px;
+     padding: 40px;
+     box-shadow: 	0px 5px 7px 2px rgba(0,0,0,0.4),
+		0px 3px 13px -1px rgba(0,0,0,0.29),
+		0px -4px 1px 0px rgba(0,0,0,0.22) inset,
+		0px 2px 10px 2px rgba(0,0,0,0.28);
+    border:	1px solid rgba(0,0,0,0.01);
+    border-radius:	6px;
+  }
+
+
+  .formCreatePassword,
+  .formBGUpload,
+  .formUpload,
+  .formAddress,
+  .formUpload,
+  .formUpdate,
+  .formRegister,
+  .formResetPassword,
+  .formLogin{
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFDFA;
+    width: 400px;
+     padding: 40px;
+     box-shadow: 	0px 5px 7px 2px rgba(0,0,0,0.4),
+		0px 3px 13px -1px rgba(0,0,0,0.29),
+		0px -4px 1px 0px rgba(0,0,0,0.22) inset,
+		0px 2px 10px 2px rgba(0,0,0,0.28);
+    border:	1px solid rgba(0,0,0,0.01);
+    border-radius:	6px;
+  }
+
+  .formAddItem{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFDFA;
+    width: 650px;
+    padding: 10px;
+    border-radius: 2.5%;
+   
+  }
+
+  .login-title{
+    font-size: 2.1rem;
+    font-weight: bolder;
+  }
+
+  .form-title{
+    color: #4B4A80;
+  }
+
+
+  .form-label{
+    font-size: 12px;
+    color: #4B4A80;
+  }
+
+  
+  input::placeholder{
+    font-size: 12px;
+  }
+
+  @media only screen and (min-width: 280px) and (max-width: 768px){
+    .formRequestPassword,
+    .formSubmitCode,
+    .formRegister,
+    .formResetPassword,
+    .formRequestPassword,
+    .formLogin{
+       width: 320px;
+       margin: auto;
+     }
+
+     .formBGUpload,
+     .formUpload,
+     .formAddress,
+     .formUpload,
+     .formUpdate{
+      width: 320px;
+      margin: auto;
+     }
+
+     .formAddItem{
+      width: 320px;
+      margin: auto;
+    }
+
+
+     .public{
+      min-height: 100vh;
+      background-color: #FFFDFA;
+      color: #4B4A80;
+    }
+
+    .public-title{
+      margin-bottom: 4vh; 
+      font-weight: bold;
+      color: #4B4A80;
+    }
+
+     .login-title{
+      font-size: 2rem;
+      font-weight: bold;
+      color: #4B4A80;
+    }
+  }
+  

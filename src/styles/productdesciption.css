@@ -1,0 +1,16 @@
+.product_images img {
+    max-height: 270px; 
+    max-width: 250px; 
+    padding: 10px 15px; 
+}
+
+.product_items{
+    background-color: #FFFDFA;
+    cursor: pointer;
+}
+
+.product_items:hover{
+    background-color: #FFFDFA;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius:	6px;
+}

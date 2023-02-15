@@ -1,0 +1,9 @@
+.shipAdress{
+    width: 320px;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 768px){
+    .shipAdress{
+        width: 140px;
+    }
+}

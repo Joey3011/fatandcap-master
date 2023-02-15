@@ -1,0 +1,161 @@
+.public{
+    min-height: 100vh;
+    background-color: #FFFDFA;
+    color: #4B4A80;
+  }
+  
+.public-btn{
+    background: #FFFDFA;
+    color: #4B4A80;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4),
+		0px 7px 13px -3px rgba(0,0,0,0.29),
+		0px -3px 0px 0px rgba(0,0,0,0.22) inset;
+    border:	1px solid rgba(0,0,0,0.01);
+    border-radius:	6px;
+  }
+
+  .public-btn:hover{
+    background: #FFFDFA;
+    color: #4B4A80;
+  }
+
+.toggleGetCodeEmail{
+    margin-top: -15px;
+    right: -100%;
+    max-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    transition: right 1.75s ease;
+    background: #FFFDFA;
+    z-index: 800;
+}
+
+
+.togglesubmitEmailCode{
+    margin-top: -15px;
+    right: -100%;
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    transition: right 1.75s ease;
+    background: #FFFDFA;
+    z-index: 900;
+}
+
+.toggleUpdateInfo{
+    margin-top: -15px;
+    right: -100%;
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    transition: right 0.75s ease;
+    background: #FFFDFA;
+    z-index: 1000;
+}
+
+.form-profile-update{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFDFA;
+    width: 550px;
+    padding: 10px;
+    box-shadow: 	0px 5px 7px 2px rgba(0,0,0,0.4),
+    0px 3px 13px -1px rgba(0,0,0,0.29),
+    0px -4px 1px 0px rgba(0,0,0,0.22) inset,
+    0px 2px 10px 2px rgba(0,0,0,0.28);
+    border:	1px solid rgba(0,0,0,0.01);
+    border-radius:	6px;
+}
+.addAddress{
+    width: 700px;
+    padding: 0 75px;
+    box-shadow: 	0px 5px 7px 2px rgba(0,0,0,0.4),
+    0px 3px 13px -1px rgba(0,0,0,0.29),
+    0px -4px 1px 0px rgba(0,0,0,0.22) inset,
+    0px 2px 10px 2px rgba(0,0,0,0.28);
+    border:	1px solid rgba(0,0,0,0.01);
+    border-radius:	6px;  
+}
+.addItem{
+    margin-top: 5px;
+    box-shadow: 	0px 5px 7px 2px rgba(0,0,0,0.4),
+    0px 3px 13px -1px rgba(0,0,0,0.29),
+    0px -4px 1px 0px rgba(0,0,0,0.22) inset,
+    0px 2px 10px 2px rgba(0,0,0,0.28);
+    border:	1px solid rgba(0,0,0,0.01);
+    border-radius:	6px; 
+}
+
+
+.form-get-code,
+.form-verif-cancel,
+.form-verif-phone,
+.form-verif-email{
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFDFA;
+    width: 375px;
+    padding: 10px 15px;
+}
+
+
+.form-cover-image,
+.form-profile-image,
+.form-update-password,
+.form-profile{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background: #FFFDFA;
+    width: 650px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 	0px 5px 7px 2px rgba(0,0,0,0.4),
+    0px 3px 13px -1px rgba(0,0,0,0.29),
+    0px -4px 1px 0px rgba(0,0,0,0.22) inset,
+    0px 2px 10px 2px rgba(0,0,0,0.28);
+    border:	1px solid rgba(0,0,0,0.01);
+}
+
+@media only screen and (min-width: 280px) and (max-width: 768px){
+    .form-get-code,
+    .form-verif-cancel,
+    .form-verif-phone,
+    .form-verif-email{
+        margin-left: auto;
+        margin-right: auto;
+        background: #FFFDFA;
+        width: 340px;
+        padding: 10px;
+    }
+
+    .form-cover-image,
+    .form-profile-image,
+    .form-update-password,
+    .form-profile{
+        margin-left: auto;
+        margin-right: auto;
+        background: #FFFDFA;
+        width: 340px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .form-profile-update{
+        margin-left: auto;
+        margin-right: auto;
+        background: #FFFDFA;
+        width: 340px;
+        padding: 10px;
+    }
+
+    .addAddress,
+    .addItem{
+        width: 340px;
+        padding: 0 25px;
+    }
+}
+
