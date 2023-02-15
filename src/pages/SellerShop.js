@@ -45,7 +45,6 @@ const SellerShop = () => {
         }),
     })
 
-    console.log(seller)
 
       useEffect(()=>{
         async function getRating(){
