@@ -38,15 +38,13 @@ const SellerShop = () => {
         refetchOnMountOrArgChange: true
       })
 
-
-      const { seller } = useGetCustomerQuery("customerList", {
+     const { seller } = useGetCustomerQuery("customerList", {
         selectFromResult: ({ data }) => ({
           seller: data?.entities[id]
         }),
     })
 
-
-      useEffect(()=>{
+    useEffect(()=>{
         async function getRating(){
          await axios.get(`https://projectapi-54nm.onrender.com/api/auth/getSellerRating`,
              {
@@ -78,8 +76,9 @@ const SellerShop = () => {
         getComment()
      },[token])  
 
-     const [user, setUser] = useState([])
-     useEffect(()=>{
+    const [user, setUser] = useState([])
+    
+    useEffect(()=>{
       sellerComment.map(id =>{
           return setUser(id.userId)
       })
@@ -257,8 +256,6 @@ const SellerShop = () => {
                                             </Swiper>
                                         )
                                     }
-                                    
-                             
                                     </div>
                                 </Col>
                             </Row>
@@ -271,5 +268,4 @@ const SellerShop = () => {
     }
 
 };
-
 export default SellerShop
